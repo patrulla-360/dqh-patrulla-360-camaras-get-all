@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from routers import router as camara_router
+from routers.router import router as camara_router
 from models.db import engine
 from sqlalchemy.sql import text
 
